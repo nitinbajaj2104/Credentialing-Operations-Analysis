@@ -5,13 +5,13 @@ This project analyzes US healthcare provider data to generate operational insigh
 
 Credentialing teams depend on accurate provider information to ensure efficient network validation and compliance. This analysis helps answer key operational questions such as:
 
-How providers are distributed across high-volume states
+-> How providers are distributed across high-volume states
 
-Which specialties are most prevalent
+-> Which specialties are most prevalent
 
-Where data quality issues may impact credentialing timelines
+-> Where data quality issues may impact credentialing timelines
 
-How shared practice locations can indicate group practices
+-> How shared practice locations can indicate group practices
 
 # Data Source
 
@@ -38,15 +38,15 @@ Dashboarding: Google Looker Studio
 
 A Python-based data processing script was used to prepare and structure the provider data for analysis. It includes:
 
-Reading the raw provider dataset in JSON format
+-> Reading the raw provider dataset in JSON format
 
-Filtering individual providers (NPI-1) located in New York, California, and Texas
+-> Filtering individual providers (NPI-1) located in New York, California, and Texas
 
-Creating a new SQLite database file named providers.db
+-> Creating a new SQLite database file named providers.db
 
-Creating a structured table named provider_registry
+-> Creating a structured table named provider_registry
 
-Inserting the cleaned and filtered provider records into the database
+-> Inserting the cleaned and filtered provider records into the database
 
 This approach ensures the data is stored in a consistent, query-ready format for downstream analysis.
 
