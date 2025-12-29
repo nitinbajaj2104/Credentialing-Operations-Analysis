@@ -1,4 +1,4 @@
-# Credentialing-Operations-Analysis
+# Healthcare Provider Analysis
 This project analyzes US healthcare provider data to generate operational insights for credentialing and network validation. The analysis focuses on identifying provider distribution patterns, specialty concentration, data completeness gaps, and potential group practice indicators that are relevant to operational decision-making.
 
 # Business Context
